@@ -2,15 +2,14 @@
   "$GMObject":"",
   "%Name":"obj_menu_pause",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_menu_pause",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos_tela_inicial",
-    "path":"folders/Objetos/objetos_tela_inicial.yy",
+    "name":"objetos_fase",
+    "path":"folders/Objetos/objetos_fase.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bloco_pause",
+    "path":"sprites/spr_bloco_pause/spr_bloco_pause.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

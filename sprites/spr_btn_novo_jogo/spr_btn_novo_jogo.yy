@@ -19,6 +19,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"b46ba92b-9182-48ac-9739-99976f0264c1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b46ba92b-9182-48ac-9739-99976f0264c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"db249154-bf3d-40f6-8824-76d2ecab3135","blendMode":0,"displayName":"default","isLocked":false,"name":"db249154-bf3d-40f6-8824-76d2ecab3135","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_btn_novo_jogo",
