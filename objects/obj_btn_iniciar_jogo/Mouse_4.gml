@@ -1,6 +1,2 @@
-mudar_estado(ESTADO.JOGANDO);
-room_goto(Room_fase1);
-
-
-
+navegar_para(Room_fase1, true);
 

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_btn_novo_jogo",
-    "path":"sprites/spr_btn_novo_jogo/spr_btn_novo_jogo.yy",
+    "name":"spr_btn_iniciar_jogo",
+    "path":"sprites/spr_btn_iniciar_jogo/spr_btn_iniciar_jogo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

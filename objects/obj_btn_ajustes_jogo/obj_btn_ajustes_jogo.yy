@@ -11,8 +11,8 @@
   "name":"obj_btn_ajustes_jogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos_tela_inicial",
-    "path":"folders/Objetos/objetos_tela_inicial.yy",
+    "name":"objetos_fase",
+    "path":"folders/Objetos/objetos_fase.yy",
   },
   "parentObjectId":null,
   "persistent":false,

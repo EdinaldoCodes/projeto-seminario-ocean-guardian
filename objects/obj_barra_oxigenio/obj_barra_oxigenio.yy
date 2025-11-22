@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_barra_oxigenio2",
-    "path":"sprites/spr_barra_oxigenio2/spr_barra_oxigenio2.yy",
+    "name":"spr_barra_oxigenio",
+    "path":"sprites/spr_barra_oxigenio/spr_barra_oxigenio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

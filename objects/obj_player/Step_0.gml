@@ -5,11 +5,11 @@ if (global.pause) {
 else {
 	
 	// --- Lógica de Input ---
-	var keyLeft = keyboard_check(ord("A"));    // Rotaciona para esquerda
-	var keyRight = keyboard_check(ord("D"));   // Rotaciona para direita
-	var keyForward = keyboard_check(ord("W")); // Acelera para frente
-	var keyRush = keyboard_check(vk_space);    // Boost de velocidade
-	var keyShoot = mouse_check_button_pressed(mb_left);
+	var keyLeft = keyboard_check(ord("A"));              // Rotaciona para esquerda
+	var keyRight = keyboard_check(ord("D"));             // Rotaciona para direita
+	var keyForward = keyboard_check(ord("W"));           // Acelera para frente
+	var keyRush = keyboard_check(vk_space);              // Boost de velocidade
+	var keyShoot = mouse_check_button_pressed(mb_left);  // Dispara o projetil do harpao
 
 	// Calcula a direção da rotação
 	var rotate_dir = keyRight - keyLeft;
@@ -22,12 +22,12 @@ else {
 
 	// --- LÓGICA DE DISPARO ---
 
-	// Se o jogador apertou para atirar E NÃO está atirando...
+	// Se o jogador apertou para atirar E NÃO está atirando
 	if (keyShoot && estado != EPlayerState.Disparando)
 	{
 	    // Salva o estado atual para saber para onde voltar
 		estado_anterior = estado; 
-		estado = EPlayerState.Disparando; // Define o novo estado
+		estado = EPlayerState.Disparando; 
 	
 	    // Define a animação de disparo e reinicia ela
 		sprite_index = spr_player_disparando_HarpoonGun;
@@ -35,7 +35,6 @@ else {
 	
 		
 	
-		// Ex: instance_create_layer(x, y, "Instances", obj_Harpao);
 	}
 
 
@@ -58,7 +57,7 @@ else {
 		// --- ESTADO NADANDO (NORMAL) ---
 		case EPlayerState.Nadando:
 			sprite_index = spr_player_nadando_HarpoonGun;
-			current_speed = spd_nado; // Define a velocidade de nado
+			current_speed = spd_nado; 
 
 			// --- Transições de Estado ---
 			if (!keyForward) {
@@ -85,7 +84,7 @@ else {
 		// --- ESTADO RUSHING  ---
 		case EPlayerState.Rushing:
 			sprite_index = spr_player_nadando_HarpoonGun;
-			current_speed = spd_rush; // Define a velocidade de rush
+			current_speed = spd_rush; 
 
 			// --- Transições de Estado ---
 			if (!keyForward) {
@@ -98,11 +97,11 @@ else {
 
 		// --- DISPARANDO HARPÃO---
 		case EPlayerState.Disparando:
-	        // Trava o movimento do jogador enquanto dispara
-			//current_speed = 0.1; 
+			
+			// Récuo do personagem ao disparar
 			x-=0.11;
-	        // Verifica se a animação de "disparando" terminou
-	        // (Alternativa melhor: usar o evento "Animation End")
+	      
+
 			if (image_index >= image_number - 1) 
 			{
 	            // Retorna ao estado que o jogador estava antes de atirar
@@ -112,20 +111,23 @@ else {
 	}
 
 
-	// --- LÓGICA DE MOVIMENTO ---
 
-	// Se a velocidade atual for maior que 0 (definida pelo switch)
-	// então o personagem se move.
-	if (current_speed > 0) {
- 
-	    var move_angle = image_angle + 90;
+    // --- LÓGICA DE MOVIMENTO ---
+    var _hspd = 0;
+    var _vspd = 0;
 
-		// Calcula e aplica o movimento usando o ângulo corrigido
-		x += lengthdir_x(current_speed, move_angle);
-		y += lengthdir_y(current_speed, move_angle);
-	}
+    if (current_speed != 0) {
+        var move_angle = image_angle + 90; 
+        _hspd = lengthdir_x(current_speed, move_angle);
+        _vspd = lengthdir_y(current_speed, move_angle);
+    }
 
 
-	// o player volta para a tela depois de sair dela
-	move_wrap(true, true, sprite_width);
-}
+    move_and_collide(_hspd, _vspd, tilemap_paredes);
+
+
+    // --- MANTÉM NO LIMITE DA SALA ---
+    x = clamp(x, sprite_width / 2, room_width - sprite_width / 2);
+    y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
+
+} 

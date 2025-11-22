@@ -120,8 +120,8 @@
   "maintainGms1Font":false,
   "name":"fnt_txt_versao_jogo",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"menu_inicial",
+    "path":"folders/Fonts/menu_inicial.yy",
   },
   "pointRounding":0,
   "ranges":[

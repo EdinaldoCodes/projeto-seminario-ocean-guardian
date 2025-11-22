@@ -131,8 +131,8 @@
   "maintainGms1Font":false,
   "name":"fnt_txt_titulo_jogo",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"menu_inicial",
+    "path":"folders/Fonts/menu_inicial.yy",
   },
   "pointRounding":0,
   "ranges":[
@@ -142,7 +142,7 @@
     {"lower":9647,"upper":9647,},
     {"lower":12288,"upper":12288,},
   ],
-  "regenerateBitmap":true,
+  "regenerateBitmap":false,
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",

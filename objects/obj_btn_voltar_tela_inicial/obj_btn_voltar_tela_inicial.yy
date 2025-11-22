@@ -11,8 +11,8 @@
   "name":"obj_btn_voltar_tela_inicial",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos_tela_inicial",
-    "path":"folders/Objetos/objetos_tela_inicial.yy",
+    "name":"objetos_menu_ajustes",
+    "path":"folders/Objetos/objetos_menu_ajustes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

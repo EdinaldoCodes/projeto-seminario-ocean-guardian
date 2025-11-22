@@ -1,2 +1,3 @@
-room_goto(Room_Tela_Creditos);
-layer_set_visible(layer_get_id("UILayer_Inicial"), false);
+global.sala_anterior = room;
+mudar_estado(ESTADO.AJUSTES);
+navegar_para(Room_Tela_configuracoes, false); // FALSE = Mantém dados e salva histórico

@@ -36,8 +36,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"jogador_com_harpao",
-    "path":"folders/Sprites/jogador_com_harpao.yy",
+    "name":"nadador_com_harpao",
+    "path":"folders/Sprites/jogador/nadador_com_harpao.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

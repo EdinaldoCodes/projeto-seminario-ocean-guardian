@@ -1,1 +1,1 @@
-room_goto(Room_Tela_Creditos);
+navegar_para(Room_Tela_Creditos,false);

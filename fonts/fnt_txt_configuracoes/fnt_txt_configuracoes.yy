@@ -131,8 +131,8 @@
   "maintainGms1Font":false,
   "name":"fnt_txt_configuracoes",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"menu_ajustes",
+    "path":"folders/Fonts/menu_ajustes.yy",
   },
   "pointRounding":0,
   "ranges":[

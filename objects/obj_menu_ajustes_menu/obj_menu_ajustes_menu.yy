@@ -8,8 +8,8 @@
   "name":"obj_menu_ajustes_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos_fase",
-    "path":"folders/Objetos/objetos_fase.yy",
+    "name":"objetos_menu_ajustes",
+    "path":"folders/Objetos/objetos_menu_ajustes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

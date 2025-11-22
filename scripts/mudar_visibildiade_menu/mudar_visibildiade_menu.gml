@@ -1,3 +1,4 @@
+
 //Botões tela inicial
 function exibir_menu_inicial(estado_visivel) {
     var id_layer = layer_get_id("UILayer_Inicial"); 
@@ -68,10 +69,32 @@ function exibir_menu_fim_de_fase(estado_visivel) {
     }
 }
 
+//Menu Ajustes
+function exibir_menu_ajustes(estado_visivel) {
+    var id_layer = layer_get_id("UILayer_ajustes"); 
+    layer_set_visible(id_layer, estado_visivel);
+	
+	if (estado_visivel) {
+        // Ativa a layer para os botões funcionarem
+        instance_activate_layer(id_layer);
+    } else {
+        // Desativa a layer para os botões PARAREM de funcionar
+        instance_deactivate_layer(id_layer);
+    }
+}
+
 //Menu Créditos
 function exibir_menu_creditos(estado_visivel) {
-    //var id_layer = layer_get_id("UILayer_tela_creditos");
+        var id_layer = layer_get_id("UILayer_menu_creditos"); 
+        layer_set_visible(id_layer, estado_visivel);
 	
-
+	if (estado_visivel) {
+        // Ativa a layer para os botões funcionarem
+        instance_activate_layer(id_layer);
+    } else {
+        // Desativa a layer para os botões PARAREM de funcionar
+        instance_deactivate_layer(id_layer);
+    }
 }
+	
 

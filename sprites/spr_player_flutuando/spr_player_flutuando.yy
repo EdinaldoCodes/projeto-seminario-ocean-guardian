@@ -55,8 +55,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"jogador",
-    "path":"folders/Sprites/jogador.yy",
+    "name":"nadador_padrao",
+    "path":"folders/Sprites/jogador/nadador_padrao.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
