@@ -10,7 +10,7 @@ if (global.oxigenio <= 0) {
     
 }
 
-// Reinicia o alarme para que ele dispare novamente em 1 segundo
+
 // Apenas reinicie se o jogador ainda tiver oxigênio
 if (global.oxigenio > 0) {
     alarm[0] = game_get_speed(gamespeed_fps); // 1 segundo
