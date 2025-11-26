@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Fracasso02",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.0880046,
+  "exportDir":"",
+  "name":"Fracasso02",
+  "parent":{
+    "name":"asset2",
+    "path":"folders/Sons/asset2.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Fracasso02.mp3",
+  "volume":1.0,
+}

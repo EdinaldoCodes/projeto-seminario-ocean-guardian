@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mudar_visibildiade_menu",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mudar_visibildiade_menu",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

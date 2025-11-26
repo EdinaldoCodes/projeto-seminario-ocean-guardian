@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Conclus_oDeNivel02",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.4816327,
+  "exportDir":"",
+  "name":"Conclus_oDeNivel02",
+  "parent":{
+    "name":"asset2",
+    "path":"folders/Sons/asset2.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Conclus_oDeNivel02.mp3",
+  "volume":1.0,
+}
