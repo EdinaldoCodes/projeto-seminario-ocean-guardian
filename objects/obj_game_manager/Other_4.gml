@@ -42,7 +42,7 @@ else if (room == Room_fase2) {
     global.pause = false;
     global.oxigenio = 100;
     global.contador_lixo = 0;
-	global.contador_lixo_max = 15; 
+	global.contador_lixo_max = 1; 
         
     global.resetar_sessao = false;
     mudar_estado(ESTADO.JOGANDO);
@@ -63,7 +63,7 @@ else if (room == Room_fase3) {
     global.pause = false;
     global.oxigenio = 100;
     global.contador_lixo = 0;
-	global.contador_lixo_max = 20; 
+	global.contador_lixo_max = 1; 
         
     global.resetar_sessao = false;
     mudar_estado(ESTADO.JOGANDO);

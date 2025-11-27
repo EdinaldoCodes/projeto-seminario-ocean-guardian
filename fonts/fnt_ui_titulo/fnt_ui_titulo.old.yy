@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fnt_ui_titulo",
   "parent":{
-    "name":"ui jogo",
-    "path":"folders/Fonts/ui jogo.yy",
+    "name":"ui_objetivos_fase",
+    "path":"folders/Fonts/ui_objetivos_fase.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -7,7 +7,7 @@ global.oxigenio_max = 100; //para o hud
 //Essse alarme vai disparar a cada 1 segundo
 alarm[0] = game_get_speed(gamespeed_fps);
 var _layer_id = layer_get_id("tls_fase1");
-tilemap_paredes = layer_tilemap_get_id(_layer_id);
+tilemap_paredes = layer_tilemap_get_id(_layer_id)
 
 
 // Define todos os estados possíveis para o jogador//

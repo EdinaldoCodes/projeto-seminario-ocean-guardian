@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_txt_nomes_creditos",
+  "%Name":"fnt_txt_nomes_creditos_ebrima",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":11,
@@ -462,10 +462,10 @@
   "last":0,
   "lineHeight":14,
   "maintainGms1Font":false,
-  "name":"fnt_txt_nomes_creditos",
+  "name":"fnt_txt_nomes_creditos_ebrima",
   "parent":{
-    "name":"menu_inicial",
-    "path":"folders/Fonts/menu_inicial.yy",
+    "name":"menu_creditos",
+    "path":"folders/Fonts/menu_creditos.yy",
   },
   "pointRounding":0,
   "ranges":[

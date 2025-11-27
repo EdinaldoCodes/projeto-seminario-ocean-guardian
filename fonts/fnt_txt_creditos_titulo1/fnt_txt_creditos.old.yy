@@ -130,8 +130,8 @@
   "maintainGms1Font":false,
   "name":"fnt_txt_creditos",
   "parent":{
-    "name":"menu_inicial",
-    "path":"folders/Fonts/menu_inicial.yy",
+    "name":"menu_creditos",
+    "path":"folders/Fonts/menu_creditos.yy",
   },
   "pointRounding":0,
   "ranges":[

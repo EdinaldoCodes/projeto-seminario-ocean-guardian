@@ -15,6 +15,6 @@ navegar_para(Room_fase3,true);
 } else if room = Room_fase3 {
 
 exibir_menu_fim_de_fase(false);
-navegar_para(Room_Tela_Creditos,true);
+room_goto(Room_Tela_Creditos);
 
 };
