@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"preparar_sessao",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"preparar_sessao",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

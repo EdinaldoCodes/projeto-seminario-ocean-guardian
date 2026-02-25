@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"mudar_estado",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"mudar_estado",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

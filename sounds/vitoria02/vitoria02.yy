@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vitoria02",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":10.083265,
+  "exportDir":"",
+  "name":"vitoria02",
+  "parent":{
+    "name":"asset1",
+    "path":"folders/Sons/asset1.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vitoria02.mp3",
+  "volume":1.0,
+}

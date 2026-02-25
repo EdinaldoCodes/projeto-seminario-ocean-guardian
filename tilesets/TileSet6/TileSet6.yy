@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"TileSet6",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"TileSet6",
+  "out_columns":39,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"tile_set_fases",
+    "path":"folders/Conjuntos de tiles/tile_set_fases.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tileSet",
+    "path":"sprites/tileSet/tileSet.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":14,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":14,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":1504,
+}

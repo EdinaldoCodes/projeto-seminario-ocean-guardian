@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Cr_ditos04",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":300.04245,
+  "exportDir":"",
+  "name":"Cr_ditos04",
+  "parent":{
+    "name":"asset3",
+    "path":"folders/Sons/asset3.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Cr_ditos04.mp3",
+  "volume":1.0,
+}
