@@ -6,8 +6,13 @@
   "name":"obj_lixo2",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"coletaveis",
     "path":"folders/Objetos/coletaveis.yy",
+=======
+    "name":"objetos coletaveis",
+    "path":"folders/Objetos/objetos coletaveis.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,

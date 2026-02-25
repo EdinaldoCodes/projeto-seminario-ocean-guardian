@@ -26,8 +26,13 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< HEAD
     "name":"fase_ui",
     "path":"folders/Sprites/interface/fase_ui.yy",
+=======
+    "name":"interface",
+    "path":"folders/Sprites/interface.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,13 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< HEAD
     "name":"tela inicial",
     "path":"folders/Sprites/interface/tela inicial.yy",
+=======
+    "name":"interface",
+    "path":"folders/Sprites/interface.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

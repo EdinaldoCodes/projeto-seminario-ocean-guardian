@@ -11,8 +11,13 @@
   "name":"obj_btn_ajustes_jogo",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"fase",
     "path":"folders/Objetos/fase.yy",
+=======
+    "name":"objetos_fase",
+    "path":"folders/Objetos/objetos_fase.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,8 +40,13 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+<<<<<<< HEAD
     "name":"spr_btn_ajustes",
     "path":"sprites/spr_btn_ajustes/spr_btn_ajustes.yy",
+=======
+    "name":"spr_btn_ajustes_jogo",
+    "path":"sprites/spr_btn_ajustes_jogo/spr_btn_ajustes_jogo.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "spriteMaskId":null,
   "visible":true,

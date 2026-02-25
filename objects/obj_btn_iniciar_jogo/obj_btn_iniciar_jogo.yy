@@ -9,8 +9,13 @@
   "name":"obj_btn_iniciar_jogo",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"tela_inicial",
     "path":"folders/Objetos/tela_inicial.yy",
+=======
+    "name":"objetos_tela_inicial",
+    "path":"folders/Objetos/objetos_tela_inicial.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,

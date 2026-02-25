@@ -14,8 +14,13 @@
   "exportDir":"",
   "name":"Cr_ditos01",
   "parent":{
+<<<<<<< HEAD
     "name":"asset2",
     "path":"folders/Sons/asset2.yy",
+=======
+    "name":"assets de som",
+    "path":"folders/Sons/assets de som.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "preload":false,
   "resourceType":"GMSound",

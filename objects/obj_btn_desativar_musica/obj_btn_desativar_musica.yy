@@ -3,6 +3,10 @@
   "%Name":"obj_btn_desativar_musica",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+<<<<<<< HEAD
+=======
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
@@ -10,8 +14,13 @@
   "name":"obj_btn_desativar_musica",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"menu_ajustes",
     "path":"folders/Objetos/menu_ajustes.yy",
+=======
+    "name":"objetos_menu_ajustes",
+    "path":"folders/Objetos/objetos_menu_ajustes.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,

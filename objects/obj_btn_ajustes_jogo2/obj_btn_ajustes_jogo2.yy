@@ -11,8 +11,13 @@
   "name":"obj_btn_ajustes_jogo2",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"tela_inicial",
     "path":"folders/Objetos/tela_inicial.yy",
+=======
+    "name":"objetos_tela_inicial",
+    "path":"folders/Objetos/objetos_tela_inicial.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,8 +40,13 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+<<<<<<< HEAD
     "name":"spr_btn_ajustes_icone",
     "path":"sprites/spr_btn_ajustes_icone/spr_btn_ajustes_icone.yy",
+=======
+    "name":"spr_btn_ajustes_jogo2",
+    "path":"sprites/spr_btn_ajustes_jogo2/spr_btn_ajustes_jogo2.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "spriteMaskId":null,
   "visible":true,

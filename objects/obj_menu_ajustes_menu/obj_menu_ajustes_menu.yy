@@ -8,8 +8,13 @@
   "name":"obj_menu_ajustes_menu",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"menu_ajustes",
     "path":"folders/Objetos/menu_ajustes.yy",
+=======
+    "name":"objetos_menu_ajustes",
+    "path":"folders/Objetos/objetos_menu_ajustes.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "parentObjectId":null,
   "persistent":false,

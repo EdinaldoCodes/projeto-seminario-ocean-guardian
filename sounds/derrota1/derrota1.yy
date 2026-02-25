@@ -14,8 +14,13 @@
   "exportDir":"",
   "name":"derrota1",
   "parent":{
+<<<<<<< HEAD
     "name":"asset1",
     "path":"folders/Sons/asset1.yy",
+=======
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "preload":false,
   "resourceType":"GMSound",

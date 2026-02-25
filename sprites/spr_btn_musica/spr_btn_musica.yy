@@ -26,6 +26,7 @@
     {"$GMImageLayer":"","%Name":"bf51ea3e-2181-4a4f-873f-6a246f40e937","blendMode":0,"displayName":"default","isLocked":false,"name":"bf51ea3e-2181-4a4f-873f-6a246f40e937","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_btn_musica",
+<<<<<<< HEAD
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":6,
@@ -46,6 +47,9 @@
     ],
     "top":4,
   },
+=======
+  "nineSlice":null,
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   "origin":4,
   "parent":{
     "name":"menu_ajustes",

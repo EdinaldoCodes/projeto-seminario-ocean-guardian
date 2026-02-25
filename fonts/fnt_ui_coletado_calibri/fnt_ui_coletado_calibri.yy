@@ -371,7 +371,11 @@
     {"lower":32,"upper":255,},
     {"lower":9647,"upper":9647,},
   ],
+<<<<<<< HEAD
   "regenerateBitmap":true,
+=======
+  "regenerateBitmap":false,
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)\r\nCRÉDITOS\r\n",

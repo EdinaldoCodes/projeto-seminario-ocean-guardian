@@ -17,14 +17,24 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
+<<<<<<< HEAD
     "name":"tile_set_fases",
     "path":"folders/Conjuntos de tiles/tile_set_fases.yy",
+=======
+    "name":"tile_set_fase1",
+    "path":"folders/Sprites/tile_set_fase1.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
+<<<<<<< HEAD
     "name":"spr_tls_praia",
     "path":"sprites/spr_tls_praia/spr_tls_praia.yy",
+=======
+    "name":"tls_praia",
+    "path":"sprites/tls_praia/tls_praia.yy",
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
   },
   "spriteNoExport":false,
   "textureGroupId":{

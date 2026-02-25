@@ -15,6 +15,7 @@ function exibir_menu_inicial(estado_visivel) {
 
 // HUD - Barra de oxigenio, Botão Pause
 function exibir_ui_hud(estado_visivel) {
+<<<<<<< HEAD
     var id_layer_ui = layer_get_id("UILayer_HUD"); 
     
     // objetos que estão na Instance Layer
@@ -72,6 +73,19 @@ function exibir_ui_hud(estado_visivel) {
         }
     }
 }	
+=======
+    var id_layer = layer_get_id("UILayer_HUD"); 
+    layer_set_visible(id_layer, estado_visivel);
+		
+	if (estado_visivel) {
+        // Ativa a layer para os botões funcionarem
+        instance_activate_layer(id_layer);
+    } else {
+        // Desativa a layer para os botões PARAREM de funcionar
+        instance_deactivate_layer(id_layer);
+    }
+}
+>>>>>>> 49f741ce76cc3f95f9174ae61b1ba509ca112743
 
 //Menu Pause
 function exibir_menu_pause(estado_visivel) {
